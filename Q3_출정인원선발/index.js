@@ -1,8 +1,4 @@
 // https://jsalgo.co.kr/index.html?page=3#
-/*
-* 오답 노트
-* 정렬이 필요하다면 조건에 맞는 자료구조를 먼저 만든후 정렬 하기
-* */
 function solution(data) {
     let count = Math.floor(data.length * 0.3)
     if(count < 0) return []
